@@ -35,15 +35,4 @@ public class Person {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
-    public static void printFI(Person person) {
-        // Concatenate the first and second name of the person and print it.
-        System.out.println(person.getFirstName() + " " + person.getSecondName());
-    }
-
-    public static void printInfo(Person person) {
-        // Concatenate the first and second name of the person and print it.
-        System.out.println(person.getFirstName() + " " + person.getSecondName() + " " + person.getAge() + " " + person.getPhone());
-    }
-
 }

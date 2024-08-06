@@ -26,4 +26,8 @@ public class Student extends Person {
     public void setCourse(String course) {
         this.course = course;
     }
+
+    public static void printInfo(Student student) {
+        System.out.println(student.getFirstName() + " " + student.getSecondName() + " " + student.getGroup() + " " + student.getCourse());
+    }
 }
