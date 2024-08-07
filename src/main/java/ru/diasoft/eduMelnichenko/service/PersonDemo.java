@@ -5,7 +5,7 @@ import ru.diasoft.eduMelnichenko.domain.Person;
 public class PersonDemo {
 
     public static void demo() {
-        Person person1 = new Person("Иван", "Иванов", 30);
+        Person person1 = new Person("Иван", "Иванов", 30, "123456789");
 
         person1.setPhone("123456789");
         System.out.println("Working static method printFI:\n");
