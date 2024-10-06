@@ -33,7 +33,7 @@ public class Person {
        this.age = age;
    }
 
-    public void setPhone(String phone) {
+   public void setPhone(String phone) {
         this.phone = phone;
     }
 }

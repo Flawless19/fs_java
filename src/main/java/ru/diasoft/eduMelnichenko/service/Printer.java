@@ -1,5 +1,5 @@
 package ru.diasoft.eduMelnichenko.service;
 
-public class Printer {
-
+public interface Printer {
+    void printInfo();
 }
